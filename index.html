@@ -29,7 +29,7 @@
         </nav>
         <section class="slider">
             <div class="slides">
-                <div class="item" id="slide1 " >
+                <div class="item active" id="slide1" >
                     <img src="/image shop/pic1.webp" >
                     <span>آهنگ هارو زنده تر از اون چیزی که هستن گوش بده</span>
                 </div>
@@ -37,18 +37,20 @@
                     <img src="/image shop/pic2.webp" >
                     <span>کیفیت صدایی که که همیشه <br>دنبالش بودی اینجاست</span>
                 </div>
-                <div class="item active" id="slide3">
+                <div class="item" id="slide3">
                     <img src="/image shop/pic3.avif" >
                     <span>رویا هاتو با صدای بلند گوش بده</span>
                 </div>
 
             </div>
             <div class="buttons">
-                <i class="fa-solid fa-circle"></i>
-                <i class="fa-solid fa-circle"></i>
-                <i class="fa-solid fa-circle"></i>
+                <i onclick="setSlide('slide1', 1)" class="fa-solid fa-circle"></i>
+                <i onclick="setSlide('slide2', 2)"  class="fa-solid fa-circle"></i>
+                <i onclick="setSlide('slide3', 3)"  class="fa-solid fa-circle"></i>
             </div>
         </section>
     </header>
+
+    <script src="/js/main.js"></script>
 </body>
 </html>
